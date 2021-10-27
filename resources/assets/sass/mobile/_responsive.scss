@@ -1,0 +1,159 @@
+@media screen and (max-width : 800px) {
+  .area-header {
+    .logo {
+      overflow : hidden;
+      padding  : 10px 0;
+      width    : 55px;
+      margin   : auto;
+      img {
+        width : 198px;
+      }
+    }
+  }
+  .area-more {
+    .btn {
+      font-size   : 16px;
+      line-height : 25px;
+    }
+    img.panel {
+      margin : 0 30px;
+      width  : 350px;
+    }
+  }
+}
+@media screen and (max-width : 767px) {
+  .Intro {
+    top     : 100px;
+    padding : 0 30px;
+    .links {
+      font-size : 14px;
+      margin    : 50px 0 30px;
+      a {
+        color       : $color_one;
+        font-size   : 14px;
+        font-weight : 700;
+        padding     : 0 4px;
+      }
+    }
+    h1 {
+      font-size   : 24px;
+      line-height : 20px;
+      margin      : 0 auto 40px;
+      max-width   : 620px;
+      padding     : 0;
+      strong {
+        color : $color_one;
+      }
+    }
+    a.buttonAction {
+      border      : 4px solid $color_one;
+      color       : $color_one;
+      display     : inline-block;
+      font-size   : 15px;
+      font-weight : 900;
+      padding     : 10px 10px;
+    }
+  }
+  .Beneficios {
+    .title {
+      h2 {
+        font-size   : 34px;
+        line-height : 32px;
+        margin      : 50px 0 30px;
+      }
+    }
+  }
+
+  .overflow {
+    overflow : scroll;
+    .scroll {
+      width : 472px;
+    }
+  }
+  .scrollInfo {
+    color         : #f87a8a;
+    padding       : 0 10px;
+    margin-bottom : 20px;
+  }
+  .sticky {
+    background : rgb(11, 65, 149);
+    border     : 0;
+    box-shadow : 0 0 4px rgba(0, 2px, 6px, 0.5);
+    position   : fixed;
+    top        : 0;
+    width      : 100%;
+    z-index    : 1;
+    .area-header {
+      .logo {
+        overflow : hidden;
+        padding  : 10px 0;
+        width    : 130px;
+        margin   : auto;
+        img {
+          width  : 120px;
+          height : auto;
+        }
+      }
+    }
+    a.cotice-fl {
+      border        : 3px solid #fff;
+      border-radius : 0;
+      color         : #fff;
+      display       : inline-block;
+      padding       : 7px 8px;
+      margin-top    : 6px;
+    }
+  }
+}
+@media screen and (max-width : 480px) {
+  .area-header {
+    .logo {
+      overflow : hidden;
+      padding  : 10px 0;
+      width    : 198px;
+      margin   : auto;
+      img {
+        width : 198px;
+      }
+    }
+  }
+  .area-more {
+    .btn {
+      font-size   : 16px;
+      line-height : 25px;
+      margin      : 5px 0;
+      width       : 100%;
+    }
+  }
+  .areaBeneficios {
+    .item {
+      figure {
+        text-align : left;
+        img {
+          width : 120px;
+        }
+      }
+      h3 {
+        color       : #0e4498;
+        font-size   : 28px;
+        font-weight : 300;
+        line-height : 40px;
+        margin      : 0;
+        padding     : 0;
+      }
+
+      h4 {
+        font-size : 14px;
+      }
+      p {
+        font-size : 16px;
+      }
+    }
+    .order1 {
+      order : 0;
+    }
+    .order2 {
+      order : 1;
+    }
+  }
+}

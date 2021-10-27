@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="435px" height="246px" viewBox="0 0 435 246" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>wasi-partner</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="wasi-partner">
+            <g id="Page-1" transform="translate(102.000000, 38.000000)">
+                <path d="M206,94.9981733 C206,147.463995 163.911743,190 111.998193,190 C60.0846425,190 18,147.467649 18,94.9981733 C18,42.5323514 60.0882573,0 112.001807,0 C163.915358,0 206,42.5323514 206,94.9981733" id="Fill-1" fill="#EDEDF8"></path>
+                <path d="M36,145.972973 C27.9648,145.972973 18,135.873514 18,127.72973 L18,98.5405405 C18,83.3512162 32.0148,73 43.2,73 L68.4,73 C79.5852,73 90,83.3512162 90,98.5405405 L90,120.432432 L90,131.378378 C90,139.522162 87.2352,145.972973 79.2,145.972973 L79.2,208 L36,208 L36,145.972973 Z" id="Fill-3" fill="#FFFFFF"></path>
+                <path d="M59.5,62 C69.4197,62 78,54.102 78,43.6666667 L78,36.3333333 C78,25.898 69.4197,18 59.5,18 C49.5803,18 41,25.898 41,36.3333333 L41,43.6666667 C41,54.102 49.5803,62 59.5,62" id="Fill-5" fill="#FFFFFF"></path>
+                <path d="M59.5,62 C69.4197,62 78,54.102 78,43.6666667 L78,36.3333333 C78,25.898 69.4197,18 59.5,18 C49.5803,18 41,25.898 41,36.3333333 L41,43.6666667 C41,54.102 49.5803,62 59.5,62 Z" id="Stroke-7" stroke="#2A5082" stroke-width="9"></path>
+                <path d="M37,208 L37,99" id="Stroke-9" stroke="#2A5082" stroke-width="9"></path>
+                <path d="M91,120 L91,131 C91,139.184 88.184,145.666667 80,145.666667 L80,208" id="Stroke-11" stroke="#2A5082" stroke-width="9"></path>
+                <path d="M58,146 L58,208" id="Stroke-13" stroke="#2A5082" stroke-width="9"></path>
+                <path d="M95,109 L58,109" id="Stroke-15" stroke="#2A5082" stroke-width="9"></path>
+                <path d="M110,109 L102,109" id="Stroke-17" stroke="#2A5082" stroke-width="9"></path>
+                <polyline id="Stroke-19" stroke="#2A5082" stroke-width="9" points="73 129 54 109.498125 73 90"></polyline>
+                <path d="M117,109 L125,109" id="Stroke-21" stroke="#2A5082" stroke-width="9"></path>
+                <path d="M90,98.55 C90,83.35505 79.5852,73 68.4,73 L43.2,73 C32.0148,73 18,83.35505 18,98.55 L18,127.75 C18,135.8968 27.9648,146 36,146" id="Stroke-23" stroke="#2A5082" stroke-width="9"></path>
+                <polygon id="Fill-25" fill="#FFFFFF" points="0 172 43 172 43 135 0 135"></polygon>
+                <polygon id="Stroke-27" stroke="#2A5082" stroke-width="9" points="0 172 43 172 43 135 0 135"></polygon>
+                <path d="M189,145.972973 C196.2,145.972973 207,135.873514 207,127.72973 L207,98.5405405 C207,83.3512162 192.9852,73 181.8,73 L156.6,73 C145.4148,73 135,83.3512162 135,98.5405405 L135,120.432432 L135,131.378378 C135,139.522162 138.6,145.972973 145.8,145.972973 L145.8,208 L189,208 L189,145.972973 Z" id="Fill-28" fill="#FFFFFF"></path>
+                <path d="M168.5,62 C158.5803,62 150,54.102 150,43.6666667 L150,36.3333333 C150,25.898 158.5803,18 168.5,18 C178.4197,18 187,25.898 187,36.3333333 L187,43.6666667 C187,54.102 178.4197,62 168.5,62" id="Fill-29" fill="#FFFFFF"></path>
+                <path d="M168.5,62 C158.5803,62 150,54.102 150,43.6666667 L150,36.3333333 C150,25.898 158.5803,18 168.5,18 C178.4197,18 187,25.898 187,36.3333333 L187,43.6666667 C187,54.102 178.4197,62 168.5,62 Z" id="Stroke-30" stroke="#2A5082" stroke-width="9"></path>
+                <path d="M189,208 L189,99" id="Stroke-31" stroke="#2A5082" stroke-width="9"></path>
+                <path d="M135,120 L135,131 C135,139.184 138.666667,145.666667 146,145.666667 L146,208" id="Stroke-32" stroke="#2A5082" stroke-width="9"></path>
+                <path d="M168,146 L168,208" id="Stroke-33" stroke="#2A5082" stroke-width="9"></path>
+                <path d="M131,109 L168,109" id="Stroke-34" stroke="#2A5082" stroke-width="9"></path>
+                <polyline id="Stroke-35" stroke="#2A5082" stroke-width="9" points="154 129 173 109.498125 154 90"></polyline>
+                <path d="M135,98.55 C135,83.35505 145.4148,73 156.6,73 L181.8,73 C192.9852,73 207,83.35505 207,98.55 L207,127.75 C207,135.8968 197.0352,146 189,146" id="Stroke-36" stroke="#2A5082" stroke-width="9"></path>
+                <polygon id="Fill-37" fill="#FFFFFF" points="183 172 226 172 226 135 183 135"></polygon>
+                <polygon id="Stroke-38" stroke="#2A5082" stroke-width="9" points="183 172 226 172 226 135 183 135"></polygon>
+            </g>
+            <g id="Group-4" transform="translate(0.000000, 160.000000)" fill="#5E5090">
+                <polyline id="Fill-1020" points="19.576 10.698 0 7.814 8.871 0 19.576 10.698"></polyline>
+            </g>
+            <g id="Group-10" transform="translate(356.000000, 95.000000)" fill="#5E5090">
+                <polyline id="Fill-1019" points="0 15.851 11.844 0 14.501 11.52 0 15.851"></polyline>
+            </g>
+            <g id="Group-9" transform="translate(322.000000, 10.000000)" fill="#AF5F98">
+                <polyline id="Fill-1022" points="0 17.387 0.386 0 8.7 6.328 0 17.387"></polyline>
+            </g>
+            <g id="Group-11" transform="translate(406.000000, 147.000000)" fill="#E88159">
+                <polyline id="Fill-1028" points="28.844 0 0 15.789 18.892 15.789 28.844 0"></polyline>
+            </g>
+            <g id="Group-12" transform="translate(381.000000, 223.000000)" fill="#D17079">
+                <polyline id="Fill-1030" points="11.058 0 0 0.843 8.846 9.687 11.058 0"></polyline>
+            </g>
+            <g id="Group-5" transform="translate(49.000000, 108.000000)" fill="#AF5F98">
+                <polyline id="Fill-1023" points="14.565 0.931 0 10.435 0.525 0 14.565 0.931"></polyline>
+            </g>
+            <g id="Group-7" transform="translate(79.000000, 11.000000)" fill="#D17079">
+                <polyline id="Fill-1024" points="24.33 25.803 0 0 2.897 17.017 24.33 25.803"></polyline>
+            </g>
+            <g id="Group-8" transform="translate(193.000000, 0.000000)" fill="#E88159">
+                <polyline id="Fill-1025" points="16.379 0 0 12.165 13.608 16.496 16.379 0"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

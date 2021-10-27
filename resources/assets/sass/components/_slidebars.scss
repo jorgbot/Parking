@@ -1,0 +1,90 @@
+/**
+ * Sliding swipe menu CSS
+ */
+.sideNav {
+  background-color : #0b276c;
+  height           : 100%;
+  left             : 0;
+  overflow-x       : visible;
+  overflow-y       : auto;
+  position         : fixed;
+  top              : 0;
+  transform        : translate(-290px, 0);
+  width            : 290px;
+  z-index          : 99;
+  h5 {
+    background  : #0b2556;
+    color       : rgba(255, 255, 255, 0.37);
+    font-size   : 40px;
+    font-weight : 300;
+    margin      : 0;
+    padding     : 20px 30px;
+  }
+}
+.ssm-overlay {
+  background-color : rgba(0, 0, 0, 0.5);
+  bottom           : 0;
+  display          : none;
+  left             : 0;
+  position         : fixed;
+  right            : 0;
+  top              : 0;
+  z-index          : 98;
+}
+/**
+ * Menu
+*/
+
+#mobile {
+  line-height : 50px;
+  padding     : 25px 0;
+  a {
+    border      : 2px solid rgba(255, 255, 255, 0.34);
+    color       : #fff;
+    display     : inline-block;
+    font-size   : 22px;
+    font-weight : 300;
+    padding     : 2px 12px;
+    &:hover {
+      text-decoration : none;
+    }
+  }
+}
+ul.mobile-menu {
+  margin  : 0;
+  padding : 0 0 0 30px;
+  li {
+    font-size   : 16px;
+    line-height : 16px;
+    list-style  : none;
+    margin      : 22px 0;
+    a {
+      border-left : 4px solid $color_one;
+      color       : #fff;
+      display     : block;
+      font-size   : 22px;
+      font-weight : 300;
+      padding     : 0 6px;
+    }
+    ul {
+      margin  : 0 0 0 12px;
+      padding : 0 0 4px;
+      li {
+        font-size : 12px;
+        margin    : 0;
+        padding   : 0;
+        a {
+          background      : url('../images/bullet.png') 0 center no-repeat;
+          background-size : 3px 3px;
+          border-bottom   : 1px solid #730212;
+          border-left     : 0;
+          color           : #cfcfcf;
+          font-weight     : 300;
+          padding         : 6px 6px 6px 12px;
+          text-transform  : none;
+          @include ellipsis();
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+// ------------------------------------------------
+//  Footer
+// ------------------------------------------------
+
+.bg-footer {
+  background : url('../images/bg-footer.png') center 0 no-repeat;
+  height     : 64px;
+}
+footer {
+  background : #1c4b95;
+  box-shadow : 0 2px 4px 0 rgba(0, 0, 0, 0.27);
+  padding    : 50px 0 30px;
+  position   : relative;
+  z-index    : 0;
+}
+.areaFooter {
+  color : #fff;
+  a {
+    color : #fff;
+  }
+  .spc {
+    padding : 0 10px;
+  }
+  h2 {
+    font-size   : 30px;
+    font-weight : 900;
+    margin      : 0;
+    padding     : 0;
+  }
+  .line {
+    background : $color_one;
+    display    : block;
+    height     : 4px;
+    margin     : 5px 0 10px;
+    width      : 30px;
+  }
+  ul {
+    margin  : 0;
+    padding : 0;
+    li {
+      background      : url('../images/bullet.png') 0 center no-repeat;
+      background-size : 3px 3px;
+      list-style      : none;
+      margin          : 4px 0;
+      a {
+        color : #fff;
+      }
+    }
+  }
+  .follow {
+    margin-bottom : 8px;
+    img {
+      height : 25px;
+      width  : 25px;
+    }
+  }
+}
+#Bottom {
+  background : #164288;
+  color      : #fff;
+  font-size  : 13px;
+  padding    : 16px 12px;
+  text-align : center;
+}

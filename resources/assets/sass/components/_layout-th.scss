@@ -1,0 +1,153 @@
+
+.container {
+  margin             : 0 auto;
+  min-height         : 300px;
+  padding            : 0 2%;
+  padding-bottom     : 2%;
+  position           : relative;
+  transition         : all 1s ease;
+  -moz-transition    : all 1s ease;
+  -o-transition      : all 1s ease;
+  -webkit-transition : all 1s ease;
+  width              : 1150px;
+}
+#filters {
+  border-bottom  : 1px solid #ededed;
+  list-style     : none;
+  margin         : 1%;
+  padding        : 0;
+  padding-bottom : 1%;
+}
+#filters li {
+  display : inline-block;
+}
+#filters li span {
+  color           : #666;
+  cursor          : pointer;
+  display         : block;
+  padding         : 5px 20px;
+  text-decoration : none;
+}
+#filters li span.active {
+  background : #e95a44;
+  color      : #fff;
+}
+#portfoliolist .portfolio {
+  border             : 1px solid red;
+  -moz-box-sizing    : border-box;
+  -webkit-box-sizing : border-box;
+  display            : none;
+  float              : left;
+  margin             : 1%;
+  overflow           : hidden;
+  width              : 23%;
+  -o-box-sizing      : border-box;
+}
+.portfolio-wrapper {
+  background : #fff;
+  cursor     : pointer;
+  overflow   : hidden;
+  position   : relative !important;
+}
+.portfolio img {
+  max-width : 100%;
+  position  : relative;
+}
+.portfolio .slabel {
+  bottom   : -40px;
+  height   : 40px;
+  position : absolute;
+  width    : 100%;
+}
+.portfolio .label-bg {
+  background : #2859a7;
+  height     : 100%;
+  left       : 0;
+  position   : absolute;
+  top        : 0;
+  width      : 100%;
+}
+.portfolio .text-title {
+  color         : #fff;
+  display       : block;
+  line-height   : 18px;
+  overflow      : hidden;
+  text-overflow : ellipsis;
+  white-space   : nowrap;
+}
+.portfolio .label-text {
+  color    : #fff;
+  padding  : 5px 8px;
+  position : relative;
+  z-index  : 500;
+}
+.portfolio .text-category {
+  display   : block;
+  font-size : 9px;
+}
+/* #Tablet (Portrait) */
+@media only screen and (min-width : 768px) and (max-width : 959px) {
+  .container {
+    width : 768px;
+  }
+}
+/*  #Mobile (Portrait) - Note: Design for a width of 320px */
+@media only screen and (max-width : 767px) {
+  .container {
+    width : 95%;
+  }
+  #portfoliolist .portfolio {
+    width  : 48%;
+    margin : 1%;
+  }
+  #ads {
+    display : none;
+  }
+}
+/* #Mobile (Landscape) - Note: Design for a width of 480px */
+@media only screen and (min-width : 480px) and (max-width : 767px) {
+  .container {
+    width : 70%;
+  }
+
+  #ads {
+    display : none;
+  }
+}
+/* #Clearing */
+
+/* Self Clearing Goodness */
+.container:after {
+  clear      : both;
+  content    : "\0020";
+  display    : block;
+  height     : 0;
+  visibility : hidden;
+}
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+  content    : '\0020';
+  display    : block;
+  height     : 0;
+  overflow   : hidden;
+  visibility : hidden;
+  width      : 0;
+}
+.row:after,
+.clearfix:after {
+  clear : both;
+}
+.row,
+.clearfix {
+  zoom : 1;
+}
+.clear {
+  clear      : both;
+  display    : block;
+  height     : 0;
+  overflow   : hidden;
+  visibility : hidden;
+  width      : 0;
+}

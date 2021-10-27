@@ -1,0 +1,8 @@
+/* BEGIN Regular */
+@font-face {
+  font-family : $fontName;
+  font-style  : normal;
+  font-weight : 400;
+  @include font_data($fontPath, $fontVersion, $FontType : "Regular");
+}
+/* END Regular */

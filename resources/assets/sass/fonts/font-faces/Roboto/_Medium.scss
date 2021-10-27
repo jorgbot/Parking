@@ -1,0 +1,8 @@
+/* BEGIN Medium */
+@font-face {
+  font-family: $fontName;
+  font-style: normal;
+  font-weight: 500;
+  @include font_data($fontPath, $fontVersion, $FontType:"Medium");
+}
+/* END Medium */

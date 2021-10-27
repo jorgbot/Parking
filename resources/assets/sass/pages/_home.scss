@@ -1,0 +1,279 @@
+// ------------------------------------------------
+//  Home Intro
+// ------------------------------------------------
+
+#areaMiddle {
+  margin-bottom : 1px;
+  position      : relative;
+  text-align    : center;
+  z-index       : 0;
+  .bg {
+    background      : url('../images/slide-01.jpg') center 0 no-repeat;
+    background-size : cover;
+    height          : 720px;
+  }
+}
+.Intro {
+  bottom   : 0;
+  color    : #fff;
+  left     : 0;
+  position : absolute;
+  right    : 0;
+  top      : 124px;
+  .links {
+    font-size   : 18px;
+    font-weight : 300;
+    margin      : 50px 0;
+    a {
+      color       : $color_one;
+      font-size   : 18px;
+      font-weight : 700;
+      padding     : 0 4px;
+    }
+  }
+  h1 {
+    font-size   : 58px;
+    font-weight : 900;
+    line-height : 54px;
+    margin      : 0 auto 40px;
+    max-width   : 620px;
+    padding     : 0;
+    strong {
+      color : $color_one;
+    }
+  }
+  a.buttonAction {
+    border      : 4px solid $color_one;
+    color       : $color_one;
+    display     : inline-block;
+    font-size   : 20px;
+    font-weight : 900;
+    padding     : 14px 14px;
+  }
+}
+// ------------------------------------------------
+//  Register
+// ------------------------------------------------
+
+.registroForm {
+  bottom   : 0;
+  position : absolute;
+  width    : 100%;
+  .myForm {
+    background    : #fff;
+    border-radius : 4px 4px 0 0;
+    border-top    : 4px solid $color_one;
+    margin        : auto;
+    max-width     : 850px;
+    overflow      : hidden;
+    padding       : 20px 20px 0;
+    text-align    : left;
+    .form-group {
+      margin-bottom : 6px;
+      label {
+        display     : block;
+        font-size   : 13px;
+        font-weight : 700;
+        margin      : 0;
+      }
+      .btn-primary {
+        font-size   : 15px;
+        font-weight : 700;
+        margin-top  : 8px;
+      }
+      .terminos {
+        font-size  : 12px;
+        text-align : center;
+      }
+    }
+  }
+}
+.blue-arrow {
+  background      : url('../images/blue-arrow.png') center 0 no-repeat;
+  background-size : 71px 47px;
+  height          : 47px;
+  position        : absolute;
+  width           : 100%;
+  z-index         : -1;
+}
+// ------------------------------------------------
+//  Beneficios
+// ------------------------------------------------
+
+.Beneficios {
+  .title {
+    margin     : auto;
+    max-width  : 630px;
+    text-align : center;
+    h2 {
+      color       : $color_two;
+      display     : inline-block;
+      font-size   : 44px;
+      font-weight : 400;
+      line-height : 44px;
+      margin      : 50px 0;
+
+    }
+  }
+  .item {
+    min-height : 140px;
+    padding    : 10px 10px 10px;
+    .thumb {
+      position : absolute;
+      top      : 6px;
+    }
+    .contt {
+      display     : inline-block;
+      margin-left : 44px;
+      h4 {
+        font-size   : 18px;
+        font-weight : 700;
+        margin      : 0 0 7px;
+        padding     : 0;
+        a {
+          color           : $color_three;
+          text-decoration : underline;
+        }
+      }
+      p {
+        color       : #697081;
+        font-size   : 16px;
+        font-weight : 400;
+      }
+    }
+  }
+}
+.area-more {
+  .btn {
+    font-size   : 16px;
+    line-height : 25px;
+    margin      : 5px 0;
+  }
+  img.panel {
+    display        : inline-block;
+    margin         : 0 40px;
+    vertical-align : middle;
+  }
+}
+// ------------------------------------------------
+//  Testimonios
+// ------------------------------------------------
+
+.areaTestimonios {
+  position : relative;
+  z-index  : 0;
+  h4 {
+    color      : $color_two;
+    font-size  : 30px;
+    margin     : 0;
+    padding    : 0;
+    text-align : center;
+  }
+  .line {
+    background : $color_two;
+    display    : block;
+    height     : 1px;
+    margin     : 10px auto;
+    width      : 30px;
+  }
+  .btn-warning {
+    border      : 1px solid #d7b33d;
+    font-size   : 16px;
+    line-height : 30px;
+  }
+}
+.listTestimonios {
+  .item {
+    font-size  : 15px;
+    padding    : 0 20px;
+    text-align : center;
+    blockquote {
+      margin  : 0;
+      padding : 0;
+    }
+    span {
+      display : block;
+    }
+    .nombre {
+      color       : #1d1d1d;
+      font-size   : 14px;
+      font-weight : 700;
+      line-height : 14px;
+    }
+    .cargo {
+      font-size   : 12px;
+      line-height : 12px;
+    }
+    .empresa {
+      color          : #5c6374;
+      font-size      : 13px;
+      line-height    : 13px;
+      text-transform : uppercase;
+    }
+    .url {
+      display     : block;
+      font-size   : 12px;
+      line-height : 14px;
+    }
+  }
+  .line {
+    background : $color_two;
+    display    : block;
+    height     : 1px;
+    margin     : 10px auto;
+    width      : 30px;
+  }
+}
+.line-shadow {
+  background : url('../images/line-shadow.png') center 0 no-repeat;
+  height     : 8px;
+  width      : 100%;
+}
+.wasiModal {
+  background : #fff url('../images/bg_form.jpg') center -2px no-repeat;
+  .modal-header {
+    border-bottom : 0;
+    color         : #fff;
+    padding       : 10px 15px 0 15px;
+  }
+  .body-tt {
+    border-bottom : 1px solid #5c4b14;
+    border-top    : 1px solid #5c4b14;
+    color         : #5c4b14;
+    margin        : 15px auto 60px;
+    max-width     : 224px;
+    padding       : 8px 0;
+    text-align    : center;
+    h3 {
+      font-weight : 900;
+      margin      : 0;
+      padding     : 0;
+    }
+    p {
+      display       : block;
+      font-size     : 13px;
+      line-height   : 14px;
+      margin-bottom : 0;
+    }
+  }
+  .modal-body {
+    padding : 20px;
+  }
+  .form-group {
+    margin-bottom : 2px;
+    label {
+      font-size   : 13px;
+      font-weight : 700;
+      margin      : 0;
+      padding     : 0;
+    }
+    .form-control {
+      border     : 1px solid #bebebe;
+      box-shadow : inset 0 1px 5px 0 rgba(122, 120, 120, 0.30);
+    }
+    .btn-warning {
+      border      : 1px solid #d6ae48;
+      line-height : 25px;
+    }
+  }
+}

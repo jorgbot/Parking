@@ -1,0 +1,34 @@
+/* 
+ * 	Owl Carousel CSS File
+*/
+
+@import 'owl-carousel/core';
+@import 'owl-carousel/animate';
+@import 'owl-carousel/autoheight';
+@import 'owl-carousel/lazyload';
+@import 'owl-carousel/video';
+
+/*
+ * 	Default theme
+*/
+
+@import "owl-carousel/theme.default";
+
+.list-theme{
+  .owl-prev, .owl-next {
+    top: 40%;
+    background : transparent url('../images/owl-carousel/owl-arrow.png') 0 0 no-repeat;
+    height: 34px;
+    width: 34px;
+  }
+  .owl-prev {
+    position: absolute;
+    left: 0;
+    background-position: left;
+  }
+  .owl-next {
+    position: absolute;
+    right: 0px;
+    background-position: right;
+  }
+}

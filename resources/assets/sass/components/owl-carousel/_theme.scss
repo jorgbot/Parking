@@ -1,0 +1,66 @@
+
+.owl-theme {
+  // Styling Next and Prev buttons
+  .owl-nav {
+    margin-top                  : 0;
+    text-align                  : center;
+    [class*='owl-'] {
+      border-radius : 3px;
+      color         : $nav-color;
+      cursor        : pointer;
+      display       : inline-block;
+      font-size     : $nav-font-size;
+      margin        : $nav-margin;
+      padding       : $nav-padding;
+
+      &:hover {
+        color           : $nav-color-hover;
+        text-decoration : none;
+      }
+    }
+    .disabled {
+      cursor  : default;
+      opacity : $nav-disabled-opacity;
+    }
+    -webkit-tap-highlight-color : transparent;
+  }
+
+  // Styling dots
+  .owl-nav.disabled + .owl-dots {
+    margin-top : 10px;
+  }
+
+  .owl-dots {
+    margin-bottom               : -26px;
+    text-align                  : center;
+    .owl-dot {
+      display  : inline-block;
+      *display : inline;
+      zoom     : 1;
+      span {
+        background                  : $dot-background;
+        border-radius               : 30px;
+        display                     : block;
+        height                      : $dot-height;
+        margin                      : $dot-margin;
+        transition                  : opacity 200ms ease;
+        width                       : $dot-width;
+        -webkit-backface-visibility : visible;
+      }
+      &.active,
+      &:hover {
+        span {
+          background : $dot-background-active;
+        }
+      }
+    }
+    -webkit-tap-highlight-color : transparent;
+  }
+}
+@media screen and (max-width : 767px) {
+  .owl-theme {
+    .owl-dots {
+      margin-bottom : -36px;
+    }
+  }
+}

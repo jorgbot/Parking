@@ -1,0 +1,51 @@
+//// Skins
+@import "skins/colors";
+////Helpers
+@import "helpers/mixins";
+@import "helpers/variables";
+//
+//// Vendors
+@import "vendors/bootstrap";            // Bootstrap framework  v4
+
+// Components
+//@import "components/slider";            // Revolution Slide
+//@import "components/owl-carousel";      // Owl Carousel v2.2.1
+@import "components/parallax";          // Parallax
+@import "components/theme-form";        // Custom Check and Radio Buttons
+@import "components/bootstrap-select";  // Bootstrap Select v1.12.2
+@import "components/waves";             // Waves v0.6.0
+@import "components/slidebars";         // TouchSwipe 1.6.17
+@import "components/drop-menu";         // Mega Menu
+@import "components/drop-pais";         // Drop mega Menu
+@import "components/flags";             // Pais Menu
+//@import "components/layout-th";         // Portfolio Grid
+
+// FontAwesome
+//@import "font-awesome/font-awesome.scss";
+
+////  Fonts Icons
+//c@import "fonts/materialdesignicons";     // Fonts Material
+//@import "fonts/font-awesome";            // Font Awesome  Version 4.7.0
+
+
+//// Base
+@import "base/general";                  // html global
+//
+//// Layout
+@import "layout/header";
+@import "layout/footer";
+@import "layout/breadcrumbs";
+//
+//// Social
+//@import "social/follow";
+//@import "social/share";
+//
+
+//// Pages
+@import "pages/_404.scss";
+@import "pages/partners";
+@import "pages/panel-partners";
+//
+//// Mobile
+@import "mobile/responsive";
+//@import "mobile/retina";

@@ -1,0 +1,136 @@
+.flag-icon {
+    background-size     : 14px;
+    background-position : 50%;
+    background-repeat   : no-repeat;
+    position            : relative;
+    display             : inline-block;
+    width               : 1.33333em;
+    line-height         : 2em
+}
+.flag-icon:before {
+    content : '\00a0'
+}
+.flag-icon.flag-icon-squared {
+    width : 1em
+}
+.flag-icon-ar {
+    background-image : url(../flags/ar.png)
+}
+.flag-icon-ar.flag-icon-squared {
+    background-image : url(../flags/ar.png)
+}
+.flag-icon-bo {
+    background-image : url(../flags/bo.png)
+}
+.flag-icon-bo.flag-icon-squared {
+    background-image : url(../flags/bo.png)
+}
+.flag-icon-br {
+    background-image : url(../flags/br.png)
+}
+.flag-icon-br.flag-icon-squared {
+    background-image : url(../flags/br.png)
+}
+.flag-icon-ch {
+    background-image : url(../flags/ch.png)
+}
+.flag-icon-ch.flag-icon-squared {
+    background-image : url(../flags/ch.png)
+}
+.flag-icon-co {
+    background-image : url(../flags/co.png)
+}
+.flag-icon-co.flag-icon-squared {
+    background-image : url(../flags/co.png)
+}
+.flag-icon-cr {
+    background-image : url(../flags/cr.png)
+}
+.flag-icon-cr.flag-icon-squared {
+    background-image : url(../flags/cr.png)
+}
+.flag-icon-ec {
+    background-image : url(../flags/ec.png)
+}
+.flag-icon-ec.flag-icon-squared {
+    background-image : url(../flags/ec.png)
+}
+.flag-icon-gt {
+    background-image : url(../flags/gt.png)
+}
+.flag-icon-gt.flag-icon-squared {
+    background-image : url(../flags/gt.png)
+}
+.flag-icon-hn {
+    background-image : url(../flags/hn.png)
+}
+.flag-icon-hn.flag-icon-squared {
+    background-image : url(../flags/hn.png)
+}
+.flag-icon-mx {
+    background-image : url(../flags/mx.png)
+}
+.flag-icon-mx.flag-icon-squared {
+    background-image : url(../flags/mx.png)
+}
+.flag-icon-ni {
+    background-image : url(../flags/ni.png)
+}
+.flag-icon-ni.flag-icon-squared {
+    background-image : url(../flags/ni.png)
+}
+.flag-icon-pa {
+    background-image : url(../flags/pa.png)
+}
+.flag-icon-pa.flag-icon-squared {
+    background-image : url(../flags/pa.png)
+}
+.flag-icon-pe {
+    background-image : url(../flags/pe.png)
+}
+.flag-icon-pe.flag-icon-squared {
+    background-image : url(../flags/pe.png)
+}
+.flag-icon-pr {
+    background-image : url(../flags/pr.png)
+}
+.flag-icon-pr.flag-icon-squared {
+    background-image : url(../flags/pr.png)
+}
+.flag-icon-py {
+    background-image : url(../flags/py.png)
+}
+.flag-icon-py.flag-icon-squared {
+    background-image : url(../flags/py.png)
+}
+.flag-icon-do {
+    background-image : url(../flags/do.png)
+}
+.flag-icon-do.flag-icon-squared {
+    background-image : url(../flags/do.png)
+}
+
+.flag-icon-sv {
+    background-image : url(../flags/sv.png)
+}
+.flag-icon-sv.flag-icon-squared {
+    background-image : url(../flags/sv.png)
+}
+.flag-icon-ur {
+    background-image : url(../flags/ur.png)
+}
+.flag-icon-ur.flag-icon-squared {
+    background-image : url(../flags/ur.png)
+}
+.flag-icon-ve {
+    background-image : url(../flags/ve.png)
+}
+.flag-icon-ve.flag-icon-squared {
+    background-image : url(../flags/ve.png)
+}
+.flag-icon-es {
+    background-image : url(../flags/es.png)
+}
+.flag-icon-es.flag-icon-squared {
+    background-image : url(../flags/es.png)
+}

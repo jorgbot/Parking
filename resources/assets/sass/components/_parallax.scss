@@ -1,0 +1,40 @@
+// ------------------------------------------------
+//  section Parallax
+// ------------------------------------------------
+#Parallax {
+  position : relative;
+}
+.parallax {
+  bottom   : 0;
+  left     : 0;
+  position : absolute;
+  right    : 0;
+  top      : 0;
+  z-index  : -1;
+  img {
+    bottom     : 10%;
+    left       : 50%;
+    min-height : 100%;
+    min-width  : 100%;
+    position   : absolute;
+    transform  : translateX(-50%);
+  }
+}
+.parallax-container {
+  overflow : hidden;
+  position : relative;
+  .contenidos {
+    padding : 70px 30px;
+    .text {
+      color       : #fff;
+      font-size   : 30px;
+      line-height : 30px;
+      margin      : auto;
+      max-width   : 620px;
+      text-align  : center;
+      strong{
+        color : $color_one;
+      }
+    }
+  }
+}
