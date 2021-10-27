@@ -1,0 +1,73 @@
+// ------------------------------------------------
+//  Header
+// ------------------------------------------------
+#Header {
+  position : absolute;
+  width    : 100%;
+  z-index  : 1;
+}
+#topBar {
+  border-bottom : 1px solid rgba(0, 0, 0, 0.22);
+  position      : relative;
+  z-index       : 2;
+}
+.area-bar {
+  margin-bottom : -2px;
+  position      : relative;
+  .arrow {
+    background      : url('../images/arrow1.png') 0 0 no-repeat;
+    background-size : 10px 8px;
+    display         : block;
+    height          : 8px;
+    margin-top      : -4px;
+    position        : absolute;
+    right           : 0;
+    width           : 10px;
+  }
+}
+header {
+  border-bottom : 1px solid rgba(255, 255, 255, 0.13);
+  border-top    : 1px solid rgba(255, 255, 255, 0.13);
+  position      : relative;
+  z-index       : 1;
+  @include transition(all 0.5s ease);
+}
+.sticky {
+  background : rgb(11, 65, 149);
+  border     : 0;
+  box-shadow : 0 0 4px rgba(0, 2px, 6px, 0.5);
+  position   : fixed;
+  top        : 0;
+  width      : 100%;
+  z-index    : 1;
+}
+.area-header {
+  clear : both;
+  .logo {
+    overflow : hidden;
+    padding  : 8px 0;
+    width    : 198px;
+    img {
+      height : 64px;
+      width  : 198px;
+    }
+  }
+  a.cotice-fl {
+    display : none;
+  }
+}
+.topshadow {
+  background : url('../images/tshadow.png') center 1px no-repeat;
+  border-top : 1px solid rgba(0, 0, 0, 0.22);
+  height     : 7px;
+  width      : 100%;
+}
+.topMenu {
+  padding    : 21px 0;
+  text-align : right;
+}
+.bg-head {
+  background      : url('../images/slide-01.png') center 0 no-repeat;
+  background-size : cover;
+  height          : 122px;
+}

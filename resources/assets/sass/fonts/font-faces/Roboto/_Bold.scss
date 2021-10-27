@@ -1,0 +1,8 @@
+/* BEGIN Bold */
+@font-face {
+  font-family : $fontName;
+  font-style  : normal;
+  font-weight : 700;
+  @include font_data($fontPath, $fontVersion, $FontType : "Bold");
+}
+/* END Bold */

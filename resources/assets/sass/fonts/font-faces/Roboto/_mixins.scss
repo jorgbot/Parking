@@ -1,0 +1,6 @@
+
+@mixin font_data($fontPath, $fontVersion, $FontType:"Regular") {
+        src: local('#{$fontName}'), local('#{$fontName}-#{$FontType}'),
+        url('#{$fontPath}/#{$FontType}/#{$fontName}-#{$FontType}.woff2?v=#{$fontVersion}') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('#{$fontPath}/#{$FontType}/#{$fontName}-#{$FontType}.woff?v=#{$fontVersion}') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}

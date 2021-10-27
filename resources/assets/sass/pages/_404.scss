@@ -1,0 +1,123 @@
+#error_404 {
+  background : #3266b5;
+}
+.area-error {
+  color : #fff;
+  left              : 48%;
+  margin            : auto;
+  padding           : 20px;
+  position          : absolute;
+  text-align        : center;
+  top               : 50%;
+  width             : 100%;
+  transform         : translate(-50%, -50%);
+  -moz-transform    : translate(-50%, -50%);
+  -webkit-transform : translate(-50%, -50%);
+  .contt {
+    position : relative;
+    max-width: 570px;
+    margin : auto;
+    .error_people {
+      display  : block;
+      position : absolute;
+      right    : -153px;
+      top      : 82px;
+      width    : 267px;
+    }
+    h2 {
+      border-bottom  : 8px solid #fff;
+      border-top     : 8px solid #fff;
+      color          : #fff;
+      font-size      : 20px;
+      letter-spacing : 3px;
+      margin         : 30px auto 15px;
+      max-width      : 500px;
+      padding        : 30px 30px;
+    }
+    .img-fluid {
+      max-width: 100%;
+    }
+  }
+  p {
+    font-family    : 'Monaco', sans-serif;
+    font-size      : 16px;
+    letter-spacing : 1px;
+  }
+  a {
+    color          : #2ea2db;
+    font-weight    : 700;
+    letter-spacing : 1px;
+  }
+  ul.links_404 {
+    margin   : 0;
+    overflow : hidden;
+    padding  : 0;
+    position : relative;
+    z-index  : 9;
+    li {
+      border-right : 1px solid #fff;
+      display: inline-block;
+      line-height  : 16px;
+      list-style   : none;
+      padding      : 0 10px;
+      &:last-child {
+        border-right : 0;
+      }
+      a {
+        color       : #fff;
+        font-size   : 16px;
+        font-weight : 400;
+        strong {
+          color : #ffd54b;
+        }
+      }
+    }
+
+  }
+}
+@media screen and (max-width : 800px) {
+  .area-error {
+    .contt {
+      .error_people {
+        display  : block;
+        position : absolute;
+        right    : -58px;
+        top      : 80px;
+        width    : 207px;
+      }
+      .error_img{
+        max-width: 400px;
+        display: block;
+        margin : auto;
+      }
+    }
+  }
+}
+@media screen and (max-width : 480px) {
+  .area-error {
+    .contt {
+      .error_people {
+        display  : block;
+        position : absolute;
+        right    : -4px;
+        top      : 30px;
+        width    : 120px;
+      }
+      .error_img{
+        max-width: 200px;
+        display: block;
+        margin : auto;
+      }
+      h2 {
+        border-bottom  : 8px solid #fff;
+        border-top     : 8px solid #fff;
+        color          : #fff;
+        font-size      : 20px;
+        letter-spacing : 3px;
+        margin         : 20px auto 15px;
+        max-width      : 500px;
+        padding        : 20px 20px;
+      }
+    }
+  }
+}

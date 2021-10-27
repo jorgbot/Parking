@@ -1,0 +1,199 @@
+
+#Bread_top {
+  background    : url('../images/pattern.svg') 0 0;
+  border-bottom : 1px solid #c2d3ef;
+}
+.areaBread {
+  padding : 25px 0;
+  h1 {
+    color       : $color_two;
+    font-size   : rem(26px);
+    font-weight : 800;
+    margin      : 0;
+    padding     : 10px 0;
+  }
+  .member {
+    display        : inline-block;
+    vertical-align : middle;
+  }
+  figure {
+    border         : 1px solid #5d91e2;
+    border-radius  : 50%;
+    display        : inline-block;
+    height         : 50px;
+    overflow       : hidden;
+    padding        : 3px;
+    vertical-align : middle;
+    width          : 50px;
+    img {
+      border-radius : 50%;
+    }
+  }
+}
+.nav_patner_panel {
+  border-bottom : 1px solid #c2d3ef;
+  ul {
+    margin  : 0 auto;
+    padding : 12px 0;
+    li {
+      border-right : 1px solid #7f96be;
+      display      : inline-block;
+      line-height  : rem(14px);
+      list-style   : none;
+      padding      : 0 12px;
+      position     : relative;
+      .badge {
+        position : absolute;
+        right    : 2px;
+        top      : -12px;
+      }
+      &:first-child {
+        padding-left : 0;
+      }
+      &:last-child {
+        border-right : 0;
+      }
+      a {
+        color      : #000;
+        display    : block;
+        font-size  : rem(15px);
+        text-align : center;
+      }
+    }
+    li.active {
+      font-weight : 700;
+      a {
+        color : #5d83be;
+      }
+    }
+  }
+}
+// ------------------------------------------------
+//  Panel
+// ------------------------------------------------
+.panelPartner {
+  padding : 20px 0;
+}
+.widget_box {
+  /* Rectangle 2 Copy 5: */
+  background    : #fff;
+  border        : 1px solid #c0c0c0;
+  border-bottom : 3px solid #0056db;
+  border-radius : 3px;
+  box-shadow    : 0 0 6px 0 rgba(0, 0, 0, 0.16);
+  margin        : 10px 0;
+  min-height    : 140px;
+  padding       : 20px;
+  h3 {
+    font-size   : rem(20px);
+    font-weight : 800;
+    margin      : 0 0 10px;
+  }
+  .form-group {
+    margin-bottom : 3px;
+  }
+  .code_id {
+    background : #f2f2f2;
+    color      : #000;
+    display    : block;
+    font-size  : rem(13px);
+    padding    : 4px 10px;
+  }
+}
+.title_a {
+  color     : #0056db;
+  font-size : rem(24px);
+  margin    : 10px 0 10px;
+}
+.widget_box_b {
+  background    : #fff;
+  border        : 1px solid #c0c0c0;
+  border-bottom : 3px solid #4cca6f;
+  border-radius : 3px;
+  box-shadow    : 0 0 6px 0 rgba(0, 0, 0, 0.16);
+  margin        : 10px 0;
+  .contt {
+    padding    : 30px 0;
+    position   : relative;
+    text-align : center;
+    .fl_layer {
+      figure {
+        margin : 0 0 12px;
+      }
+      h4.title {
+        font-size : rem(16px);
+        margin    : 0;
+        padding   : 0;
+      }
+      span.line {
+        background : #afafaf;
+        display    : block;
+        height     : 1px;
+        margin     : 12px auto;
+        width      : 45px;
+      }
+      .data {
+        display     : block;
+        font-size   : rem(42px);
+        font-weight : 800;
+        line-height : rem(42px);
+      }
+      .red {
+        color : #db2f2f;
+      }
+      .total {
+        font-size      : rem(36px);
+        letter-spacing : -1px;
+      }
+    }
+  }
+}
+.bdred {
+  border-bottom : 3px solid #db2f2f;
+}
+.mi-cuenta {
+  .head {
+    border-bottom : 1px solid #dcdcdc;
+    height        : 11px;
+    margin        : 20px 0;
+    h5 {
+      background  : #fff;
+      color       : $color-two;
+      display     : inline-block;
+      font-size   : rem(14px);
+      font-weight : 700;
+      margin      : 0;
+      padding     : 0 10px 0 0;
+    }
+  }
+}
+@media screen and (max-width : 480px) {
+  .nav_patner_panel {
+    border-bottom : 1px solid #c2d3ef;
+    ul {
+      margin  : 0 auto;
+      padding : 12px 0;
+      li {
+        border-right : 1px solid #7f96be;
+        display      : block;
+        line-height  : rem(14px);
+        list-style   : none;
+        padding      : 8px 0;
+        border-bottom : 1px solid #ededed;
+        border-right : 0;
+        position     : relative;
+        .badge {
+          position : absolute;
+          right    : 2px;
+          top      : 7px;
+        }
+        a {
+          color      : #000;
+          display    : block;
+          font-size  : rem(15px);
+          text-align : left;
+        }
+      }
+    }
+  }
+}

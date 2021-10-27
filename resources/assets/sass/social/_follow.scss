@@ -1,0 +1,52 @@
+// ------------------------------------------------
+//  Follow
+// ------------------------------------------------
+
+$red_size : 24px;
+
+.follow {
+  display : block;
+  .follow-title {
+    display        : inline-block;
+    vertical-align : middle;
+    margin         : 0;
+    padding        : 0;
+    font-size      : 12px;
+  }
+  .icon {
+    background      : url('../images/redes.png') no-repeat 0 0 transparent;
+    background-size : 168px 48px;
+    display         : inline-block;
+    height          : $red_size;
+    text-indent     : -9999em;
+    vertical-align  : middle;
+    width           : $red_size;
+    @include transitions();
+  }
+  $social-follow : facebook, twitter, google, linkedin, instagram, pinterest, youtube;
+  @each $icon in $social-follow {
+    $offset-x : -(index($social-follow, $icon) - 1) * $red_size;
+    $offset-y : (-$red_size);
+    .#{$icon} {
+      background-position : $offset-x 0;
+      &:hover {
+        background-position : $offset-x $offset-y;
+      }
+    }
+  }
+}
+
+//
+//$social-follow : bc1, bc2, bc3, bc4;
+//@each $icon in $social-follow {
+//  $offset-x : -(index($social-follow, $icon) - 1) * $red_size;
+//  $offset-y : (-$red_size);
+//  .#{$icon} {
+//    background-position : $offset-x 0;
+//    background-image    : url('../images/bg-redes.png');
+//    display             : inline-block;
+//    &:hover {
+//      background-position : $offset-x $offset-y;
+//    }
+//  }
+//}

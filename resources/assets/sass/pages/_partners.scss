@@ -1,0 +1,117 @@
+// ------------------------------------------------
+//  Partners
+// ------------------------------------------------
+.areaPartner {
+  // ------------------------------------------------
+  //  Top Intro
+  // ------------------------------------------------
+  .headIntro {
+    padding : 50px 0;
+    figure {
+      margin-bottom : 20px;
+    }
+    h2 {
+      color          : $color-two;
+      font-size      : rem(66px);
+      font-weight    : 300;
+      letter-spacing : -2px;
+      margin         : 0;
+      strong {
+        font-weight : 800;
+      }
+    }
+    p {
+      font-size : rem(18px);
+    }
+  }
+  // ------------------------------------------------
+  //  Registro Form
+  // ------------------------------------------------
+  .registro {
+    .head-form {
+      background    : #fff;
+      border        : 2px solid #2a5082;
+      border-bottom : 2px solid #fff;
+      border-radius : 3px 3px 0 0;
+      display       : inline-block;
+      margin-bottom : -2px;
+      padding       : 14px 20px;
+      text-align    : center;
+      h4 {
+        color     : #013c94;
+        font-size : rem(18px);
+        margin    : 0;
+        padding   : 0;
+      }
+    }
+    .body-form {
+      border        : 2px solid #2a5082;
+      border-radius : 0 3px 3px 3px;
+      box-shadow    : 2px 6px 15px 0 rgba(0, 0, 0, 0.26);
+      padding       : 20px;
+      .form-group {
+        margin-bottom : 2px;
+        label {
+          color       : #616161;
+          font-weight : 700;
+          margin      : 2px 0;
+        }
+      }
+    }
+  }
+  // ------------------------------------------------
+  //  Beneficios
+  // ------------------------------------------------
+  .partner-beneficios {
+    padding : 20px 0 40px;
+    .head {
+      border-bottom : 1px solid #d4d4d4;
+      height        : 25px;
+      margin        : 10px 0 60px;
+      text-align    : center;
+      h3 {
+        background  : #fff;
+        color       : #0c4296;
+        display     : inline-block;
+        font-size   : rem(40px);
+        font-weight : 800;
+        margin      : 0;
+        padding     : 0 12px;
+      }
+    }
+    .list-beneficios {
+      padding : 20px 0;
+      .item {
+        padding    : 0 10px;
+        text-align : center;
+        figure {
+          margin-bottom : 20px;
+          text-align    : center;
+        }
+        h3 {
+          font-size   : rem(18px);
+          font-weight : 700;
+          margin      : 10px 0;
+          padding     : 0;
+        }
+      }
+    }
+  }
+  // ------------------------------------------------
+  //  Contenido 2
+  // ------------------------------------------------
+  .content-bottom {
+    margin-bottom : -90px;
+    padding       : 50px 0 0;
+    article {
+      padding : 30px 0 0;
+      h3 {
+        color : $color_two;
+      }
+      p {
+        font-size : rem(16px);
+      }
+    }
+  }
+}
+

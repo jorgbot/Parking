@@ -1,0 +1,70 @@
+@mixin border-radius($radius) {
+  border-radius         : $radius;
+  -webkit-border-radius : $radius;
+  -moz-border-radius    : $radius;
+  -ms-border-radius     : $radius;
+  -o-border-radius      : $radius;
+}
+@mixin box-shadow($string) {
+  -webkit-box-shadow : $string;
+  -moz-box-shadow    : $string;
+  box-shadow         : $string;
+}
+@mixin text-shadow($string) {
+  -webkit-text-shadow : $string;
+  -moz-text-shadow    : $string;
+  text-shadow         : $string;
+}
+@mixin transitions() {
+  -webkit-transition : all 0.9s ease;
+  -moz-transition    : all 0.9s ease;
+  transition         : all 0.9s ease;
+}
+@mixin gradient($from, $to) {
+  background : -webkit-gradient(linear, left top, left bottom, from($from), to($to));
+  background : -moz-linear-gradient(top, $from, $to);
+  filter     : progid:DXImageTransform.Microsoft.gradient(startColorstr='#{$from}', endColorstr='#{$to}');
+}
+@mixin middle-center() {
+  -webkit-transform : translate(-50%, -50%);
+  -moz-transform    : translate(-50%, -50%);
+  transform         : translate(-50%, -50%);
+  left              : 50%;
+  top               : 50%;
+}
+// Ellipsis Text
+@mixin ellipsis() {
+  display       : block;
+  white-space   : nowrap;
+  text-overflow : ellipsis;
+  overflow      : hidden;
+}
+// Retina Display bg css
+
+@mixin bg-retina($file, $type, $width, $height) {
+  background-image        : url('../images/' + $file + '.' + $type);
+  background-repeat       : no-repeat;
+  -webkit-background-size : $width $height;
+  -moz-background-size    : $width $height;
+  -o-background-size      : $width $height;
+  background-size         : $width $height;
+  width                   : $width;
+  height                  : $height;
+}
+@mixin retina-display($file, $type, $width, $height) {
+  background-image : url($file + '.' + $type);
+  @media only screen and (-webkit-min-device-pixel-ratio : 2),
+  only screen and (-moz-min-device-pixel-ratio : 2),
+  only screen and (-o-min-device-pixel-ratio : 2/1),
+  only screen and (min-device-pixel-ratio : 2),
+  only screen and (min-resolution : 192dpi),
+  only screen and (min-resolution : 2dppx) {
+    & {
+      background-image        : url('../images/' + $file + '@2x.' + $type);
+      -webkit-background-size : $width $height;
+      -moz-background-size    : $width $height;
+      -o-background-size      : $width $height;
+      background-size         : $width $height;
+    }
+  }
+}

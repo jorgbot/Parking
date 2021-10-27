@@ -1,0 +1,8 @@
+/* BEGIN Light */
+@font-face {
+  font-family : $fontName;
+  font-style  : normal;
+  font-weight : 300;
+  @include font_data($fontPath, $fontVersion, $FontType : "Light");
+}
+/* END Light */

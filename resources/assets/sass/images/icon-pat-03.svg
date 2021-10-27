@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="44px" viewBox="0 0 52 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-pat-03</title>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="danger" fill-rule="nonzero">
+            <polygon id="Shape" fill="#FFFFFF" points="49.8333333 42.9 3.25 42.9 26.5416667 3.3 26.5477423 3.30993971"></polygon>
+            <path d="M25.4583333,0 L0,44 L50.9166667,44 L25.4583333,0 Z M5.16804167,41.022575 L25.4583333,5.95484991 L45.748625,41.022575 L5.16804167,41.022575 Z" id="Shape" fill="#E60020"></path>
+            <path d="M23.8333333,18.7 L23.8333333,30.0446536 L28.1666667,30.0446536 L28.1666667,18.7 L23.8333333,18.7 Z M23.8333333,33.0699426 L23.8333333,37.4 L28.1666667,37.4 L28.1666667,33.0699426 L23.8333333,33.0699426 Z" id="Shape" fill="#3C3A41"></path>
+            <g id="Group" transform="translate(26.000000, 18.700000)" fill="#17171A">
+                <rect id="Rectangle-path" x="0" y="0.0944196721" width="1.04634524" height="11.2677208"></rect>
+                <rect id="Rectangle-path" x="0" y="14.3669137" width="1.04634524" height="4.30069344"></rect>
+            </g>
+            <polygon id="Shape" fill="#C1011B" points="52 44 26 44 26 41.022575 46.722 41.022575 26 5.95484991 26 0"></polygon>
+        </g>
+    </g>
+</svg>

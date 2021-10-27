@@ -1,0 +1,33 @@
+// ------------------------------------------------
+// Share
+// ------------------------------------------------
+
+$share_size : 24px;
+
+.share {
+  display : table;
+  .share-title {
+    display        : table-cell;
+    padding        : 0 20px;
+    vertical-align : middle;
+  }
+  .icon {
+    background  : url("../images/redes.png") no-repeat 0 0 transparent;
+    display     : inline-block;
+    height      : $share_size;
+    text-indent : -9999em;
+    width       : $share_size;
+    @include transitions();
+  }
+  $social-share : facebook, twitter, google, linkedin, email;
+  @each $icon in $social-share {
+    $offset-x : -(index($social-share, $icon) - 1) * $share_size;
+    $offset-y : (-$share_size);
+    .#{$icon} {
+      background-position : $offset-x 0;
+      &:hover {
+        background-position : $offset-x $offset-y;
+      }
+    }
+  }
+}

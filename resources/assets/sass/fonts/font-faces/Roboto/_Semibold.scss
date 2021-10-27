@@ -1,0 +1,8 @@
+/* BEGIN Semibold */
+@font-face {
+  font-family: $fontName;
+  font-style: normal;
+  font-weight: 600;
+  @include font_data($fontPath, $fontVersion, $FontType:"Semibold");
+}
+/* END Semibold */
